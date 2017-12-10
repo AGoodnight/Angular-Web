@@ -1,0 +1,23 @@
+.product-container,
+.gallery-container{
+  background-color:rgba(300,300,300,0.8);
+}
+
+.home-detail-container{
+  color:#eee;
+}
+
+.product-container{
+  img.product-image{
+    max-width:280px;
+  }
+}
+
+.container,.container-fluid{
+  .gallery-container,.home-detail-container, .product-container{
+    transition: margin-left 300ms;
+    &.fluid{
+      margin-left:0px;
+    }
+  }
+}

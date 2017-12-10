@@ -1,0 +1,27 @@
+<div class='drawer' [class.closed]='closed'>
+  
+  <div class='drawer-header'>
+    <ng-content>
+    </ng-content>
+  </div>
+  
+  <ul class='drawer-nav'>
+    
+    <li *ngFor='let button of navigationButtons'> 
+      <!-- <a *ngIf='button.tooltip !== undefined'
+          class='drawer-nav-item' 
+          tabindex="0"
+          matTooltip="{{button.tooltip}}"
+          matTooltipClass='tooltip-large'
+          [matTooltipPosition] ='"right"'
+          (click)="router.navigate([button.route])">{{button.name}}
+      </a> -->
+      <a tabindex="0"
+          class='drawer-nav-item' 
+          
+          (click)="router.navigate([button.route])">{{button.name}}
+      </a>
+    </li>
+    
+  </ul>
+</div>

@@ -1,0 +1,35 @@
+@import '~@angular/material/theming';
+@import './partials/_theme.scss';
+@import '../../../node_modules/sass-material-colors/sass/sass-material-colors';
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+@import './partials/_base';
+
+body,p{
+	color:$primary-text-color;
+	background-color: $page-color;
+	background-size: cover;
+	background: url('./assets/img/pexels-photo-271795.jpeg') center center fixed;
+}
+
+.container-fluid{
+
+	@extend .container-fluid;
+	margin:0px;
+	transition: margin-left 200ms;
+	&.with-drawer{
+		transition: margin-left 200ms;
+		margin-left:$drawerWidth;
+	}
+}
+
+p{
+	background:none;
+	margin-top:12px;
+	margin-bottom:18px;
+	font-size:16px;
+}
+
+section{
+	margin-top:24px;
+	margin-bottom:32px;
+}

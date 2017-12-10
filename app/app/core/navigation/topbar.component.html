@@ -1,0 +1,26 @@
+<nav class='topbar-nav' [class.closed]='closed'>
+  <!-- <span *ngFor='let button of navigationButtons' class='topbar-nav-item'>
+    <button tabindex="0" *ngIf='button.tooltip !== undefined'
+      mat-button mat-ripples
+      matTooltip="{{button.tooltip}}"
+      matTooltipClass='tooltip-large'
+      [matTooltipPosition] ='"bottom"'
+      (click)="router.navigate([button.route])">{{button.name}}
+    </button>
+    <button tabindex="0" *ngIf='button.tooltip === undefined'
+      mat-button mat-ripples v
+      (click)="router.navigate([button.route])">{{button.name}}
+    </button>
+  </span> -->
+  <button mat-button [matMenuTriggerFor]="sitenav">Shop Logo
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="10" height="10"><path d="M16 7.9V1.3L8 8.1 0 1.3v6.6l8 6.8z" class="nc-icon-wrapper"/></svg>
+  </button>
+  <mat-menu #sitenav="matMenu">
+    <button
+      mat-menu-item
+      tabindex="0"
+      *ngFor='let button of navigationButtons'
+      (click)="router.navigate([button.route])">{{button.name}}
+    </button>
+  </mat-menu>
+</nav>

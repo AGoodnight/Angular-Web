@@ -1,0 +1,10 @@
+{
+  "name": "ng2-redux-webpack",
+  "dependencies": {},
+  "globalDependencies": {
+    "lodash": "registry:dt/lodash#4.14.0+20161110215204",
+    "redux-logger": "registry:dt/redux-logger#2.6.0+20160619033847",
+    "redux-thunk": "registry:dt/redux-thunk#2.1.0+20160703120921",
+    "require": "registry:dt/require#2.1.20+20160919185614"
+  }
+}

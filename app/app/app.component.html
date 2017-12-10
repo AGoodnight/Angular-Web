@@ -1,0 +1,19 @@
+<!-- Accesibility -->
+<span id='skip-navigation' tabindex='0' (window:resize)='onResize($event)'></span>
+
+<!-- Pages -->
+<div class='container-app' [class.with-drawer]='!isTablet || !isMobile'>
+  <router-outlet (window:resize)="onResize($event)"></router-outlet>
+</div>
+<!-- Navigation -->
+<drawer color='primary'
+        class='drawer-navigation'
+        [closed]='isMobile'>
+  <h1>{{pageName}}</h1>
+</drawer>
+
+<topbar [closed]='!isMobile'>
+</topbar>
+
+<!-- Feedback -->
+<toaster></toaster>

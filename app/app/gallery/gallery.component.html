@@ -1,0 +1,30 @@
+<div class='gallery-container'>
+  <div class='row'>
+    <h2>{{title}}</h2>
+  </div>
+  <div class='row'>
+    <!-- <div class='col-md-12'> -->
+      <div class='col-lg-3 col-md-4 col-sm-6 product-card' *ngFor='let product of products'>
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title><h3>Product</h3></mat-card-title>
+            <mat-card-subtitle>Designer Name</mat-card-subtitle>
+          </mat-card-header>
+          <!-- <div class='mat-card-image-container'> -->
+            <!-- <div class='hotspot'></div> -->
+            <div class="mat-card-image-container">
+              <!-- <img src="img_avatar.png" alt="Avatar" class="image"> -->
+              <img (click)='router.navigate([ROUTES.PRODUCT])' src="assets/img/8562fca.jpg" alt="Photo of a Shiba Inu">
+              <div class="overlay">
+                <div class="text">View</div>
+              </div>
+            </div>
+          <!-- </div> -->
+          <mat-card-actions>
+            <button mat-button>Add to Wishlist</button>
+          </mat-card-actions>
+        </mat-card>
+      <!-- </div> -->
+    </div>
+  </div>
+</div>

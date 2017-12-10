@@ -1,0 +1,28 @@
+// Theme Colors
+$primary-color:'grey';
+$accent-color:'orange';
+$accent-color-darker:'deep-orange';
+$splash-color:'purple';
+
+$primary-text-color:#111;
+$accent-text-color:#222;
+$primary-text-color-inverse:#fff;
+$accent-text-color-inverse:#eee;
+
+$alert-warn-color: material-color('red','a100');
+
+$form-background-color:material-color($primary-color,'900');
+
+$page-color:material-color($primary-color,'100');
+$divider-color:material-color($primary-color,'600');
+
+$drawer-color:material-color($primary-color,'200');
+$drawer-btn-hover-color: material-color($primary-color,'200');
+$drawer-nav-item-border-bottom: material-color($primary-color,'800');
+
+$topbar-color:material-color($primary-color,'900');
+$topbar-text-color:material-color($primary-color,'100');
+
+$button-idle:material-color($accent-color-darker,'a200');
+$button-hover:material-color($accent-color,'a200');
+$icon-btn-color:#fafafa;
