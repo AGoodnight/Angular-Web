@@ -27,6 +27,7 @@ export class AppComponent implements AfterViewInit, OnDestroy{
   public init:boolean = false;
   public frozen:boolean = false;
   public pageName:string = '';
+  public pageLogo:string = '';
   public currentRoute:string = '/';
   public isTablet:boolean = false;
   public isLarge:boolean = false;
@@ -53,7 +54,8 @@ export class AppComponent implements AfterViewInit, OnDestroy{
         this.currentRoute = res['currentRoute'];
         this.frozen = res['frozen'];
 
-        this.pageName = 'Logo';
+        this.pageName = 'Sofianka';
+        this.pageLogo = 'sofianka.jpg';
         this.init = true;
     })
 

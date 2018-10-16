@@ -46,9 +46,10 @@ import { routing,appRoutingProviders } from './app.routes';
 
 // App is our top level component
 import { AppComponent } from './app.component';
+import { AboutComponent } from './about/about.component';
 import { Toaster } from './core/toaster/toaster.component';
 import { HomeComponent } from './home/home.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { CollectionsComponent } from './collections/collections.component';
 import { ProductComponent } from './product/product.component';
 import { DrawerComponent } from './core/navigation/drawer.component';
 import { TopBarComponent } from './core/navigation/topbar.component';
@@ -134,7 +135,8 @@ const PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   declarations: [
     AppComponent,
     HomeComponent,
-    GalleryComponent,
+    AboutComponent,
+    CollectionsComponent,
     ProductComponent,
     DrawerComponent,
     TopBarComponent,

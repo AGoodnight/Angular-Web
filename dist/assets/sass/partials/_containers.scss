@@ -15,10 +15,18 @@
 
 .container,.container-fluid{
   .gallery-container,.home-detail-container, .product-container{
-    padding:25px;
     transition: margin-left 300ms;
     &.fluid{
       margin-left:0px;
     }
   }
+}
+
+.collections{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.clear{
+ clear:both;
 }

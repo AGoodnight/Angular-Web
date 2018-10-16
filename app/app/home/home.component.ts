@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
 })
 
 export class HomeComponent{
-  private title:string = 'Home';
-  private content:string = 'Content will go here';
+  private title:string = '';
+  private content:string = './assets/img/sofia.jpg';
   constructor(){
   }
 }

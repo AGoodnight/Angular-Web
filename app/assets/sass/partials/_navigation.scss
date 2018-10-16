@@ -1,5 +1,8 @@
-$drawerWidth:360px;
-$formDrawerWidth:320px;
+$drawerWidth:275px;
+$formDrawerWidth:257px;
+$drawerPaddingTop:30px;
+$drawerPaddingBottom:30px;
+$drawerPaddingLeft:40px;
 $drawerTopOffsetMd:0px;
 $drawerTopOffsetSm:0px;
 $drawer-background: $drawer-color;
@@ -73,6 +76,7 @@ svg g.nc-icon-wrapper{
   // display: flex;
   z-index: 1000;
   position: fixed;
+  padding: $drawerPaddingTop $drawerPaddingLeft $drawerPaddingBottom;
   background-color: $drawer-background;
   width: $drawerWidth;
   left: 0;
@@ -124,6 +128,10 @@ svg g.nc-icon-wrapper{
   padding-left:0px;
 }
 
+ul.drawer-nav{
+  list-style: none;
+}
+
 // .drawer-nav-item{
 //   width:$drawerWidth;
 //   cursor:pointer;
@@ -159,6 +167,7 @@ svg g.nc-icon-wrapper{
   color: #adadad;
   text-transform: uppercase;
 }
+.drawer .page
 
 .drawer.form{
   .drawer-nav-item{
@@ -210,4 +219,17 @@ svg g.nc-icon-wrapper{
     }
     margin:14px 12px 12px 12px;
   }
+}
+
+ul.social-media{
+ padding: 0;
+ margin:0;
+}
+
+ul.social-media li {
+ display: inline;
+}
+
+li.facebook{
+  border:1px solid #000;
 }

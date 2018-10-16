@@ -26,9 +26,9 @@ export class TopBarComponent{
           route:ROUTES.HOME
         },
         {
-          name:"Gallery",
+          name:"Collections",
           tooltip:"New Items!",
-          route:ROUTES.GALLERY}
+          route:ROUTES.COLLECTIONS}
       ];
   }
 

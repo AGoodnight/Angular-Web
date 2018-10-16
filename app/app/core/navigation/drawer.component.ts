@@ -27,9 +27,15 @@ export class DrawerComponent{
           route:ROUTES.HOME
         },
         {
-          name:"Gallery",
-          tooltip:"New Items!",
-          route:ROUTES.GALLERY}
+          name:"Collections",
+          tooltip:"Collections coming soon",
+          route:ROUTES.COLLECTIONS
+        },
+        {
+          name:"Our Story",
+          tooltip:"Our Story",
+          route:ROUTES.ABOUT
+        }
       ];
   }
 

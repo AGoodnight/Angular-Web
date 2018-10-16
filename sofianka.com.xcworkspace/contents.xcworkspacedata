@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:node_modules">
+   </FileRef>
+   <FileRef
+      location = "group:app">
+   </FileRef>
+   <FileRef
+      location = "group:config">
+   </FileRef>
+   <FileRef
+      location = "group:coverage">
+   </FileRef>
+   <FileRef
+      location = "group:Dockerfile">
+   </FileRef>
+   <FileRef
+      location = "group:karma.conf.js">
+   </FileRef>
+   <FileRef
+      location = "group:npm-debug.log.2054939798">
+   </FileRef>
+   <FileRef
+      location = "group:package.json">
+   </FileRef>
+   <FileRef
+      location = "group:protractor.conf.js">
+   </FileRef>
+   <FileRef
+      location = "group:README.txt">
+   </FileRef>
+   <FileRef
+      location = "group:tsconfig.aot.json">
+   </FileRef>
+   <FileRef
+      location = "group:tsconfig.json">
+   </FileRef>
+   <FileRef
+      location = "group:tslint.json">
+   </FileRef>
+   <FileRef
+      location = "group:typedoc.json">
+   </FileRef>
+   <FileRef
+      location = "group:typings.d.ts">
+   </FileRef>
+   <FileRef
+      location = "group:typings.json">
+   </FileRef>
+   <FileRef
+      location = "group:webpack.config.js">
+   </FileRef>
+</Workspace>

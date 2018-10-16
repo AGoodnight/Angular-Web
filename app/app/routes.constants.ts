@@ -3,7 +3,7 @@ export const ROUTES = {
   ABOUT:'about',
   CATALOG:'catalog',
   ARTIST_PROFILE:'artist/{id}',
-  GALLERY:'gallery',
+  COLLECTIONS:'collections',
   PRODUCT:'product',
   EDIT_PROFILE:'artist/edit/{id}',
   PROFILES_LIST:'artists-list',
